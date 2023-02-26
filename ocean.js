@@ -52,7 +52,7 @@ Array.from(aTagArray).forEach((aTag, index) => {
 </div>`;
         } else if ((index + 1) == 6 || (index + 1) == 9) {
             html = `<div class="info">
-    <div class="img"><img src="./fishes/yellowTang.png" alt=""></div>
+    <div class="img"><img src="./fishes/yellowTang.png" alt="./fishes/yellowTang.png"></div>
     <div class="text">
         <h1>The Yellow Tang</h1>
         <p>The yellow tang is found in the Indo-Pacific from East Africa to Polynesia, usually living at depths of 15 m (49 ft). It normally lives around coral reefs, but may venture into lagoons and channels. The species reaches a maximum length of 96 cm (38 in) long for males and 78 cm (31 in) long for females.</p>
