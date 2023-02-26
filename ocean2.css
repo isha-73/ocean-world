@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.aquarium {
+  /* width: 100%; */
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+}
+.aquarium h3{
+ text-align: center;
+ font-size: 40px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.container {
+  height: 70px;
+  /* margin-top: 30px; */
+  margin-left: 10px;
+
+}
+
+.container a h4 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.container a {
+
+  margin-top: 5px;
+  padding: 15px 5px;
+  border-radius: 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+.navfish {
+ display: flex;
+ flex-direction: row;
+  width: 100%;
+  /* background-color: blue; */
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: -3px -3px 7px #1077b673, 2px 2px 5px rgba(111, 155, 231, 0.288);
+  border-radius: 0px 0px 20px 20px;
+}
+#darkmode{
+  margin-right: 50px;
+  margin-top: 25px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 5px;
+
+}
+#darkmode:hover{
+  border: 2px solid blue;
+}
+body.active {
+  color: #fff;
+  background:  #0f0c27;
+}
+body {
+  background: white;
+  color: black;
+}
+.fishpot {
+  margin-left: 230px;
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  box-shadow: 0px 0px 7px black;
+  padding: 20px;
+  background-image: url("https://www.wallpapertip.com/wmimgs/27-272633_underwater-sea-water-hd.jpg");
+
+}
+
+.fish {
+  width: fit-content;
+
+}
+
+.fish img {
+  width: 90px;
+
+}
+
+
+#fish1 {
+  position: absolute;
+  bottom: 10;
+  animation-duration: 7s;
+  animation-name: fish1;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  bottom: 0;
+
+}
+
+@keyframes fish1 {
+  from {
+    margin-left: 850px;
+
+  }
+
+  to {
+    margin-left: -20px;
+
+  }
+
+
+}
+
+#fish2 {
+  position: absolute;
+  bottom: 10;
+  animation-duration: 8s;
+  animation-name: fish2;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  bottom: 15px;
+
+}
+
+@keyframes fish2 {
+  from {
+    margin-left: 20px;
+
+  }
+
+  to {
+    margin-left: 850px;
+
+  }
+}
+
+#fish3 {
+  position: absolute;
+  bottom: 10;
+  animation-duration: 10s;
+  animation-name: fish1;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  bottom: 100px;
+
+}
+
+@keyframes fish3 {
+  from {
+    margin-left: 850px;
+
+  }
+
+  to {
+    margin-left: -20px;
+
+  }
+
+}
+
+#fish4 {
+  position: absolute;
+  bottom: 10;
+  animation-duration: 7s;
+  animation-name: fish2;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  bottom: 150px;
+
+}
+
+@keyframes fish4 {
+  from {
+    margin-left: 20px;
+
+  }
+
+  to {
+    margin-left: 850px;
+
+  }
+}
+
+#fish6 {
+  position: absolute;
+  bottom: 10;
+  animation-duration: 13s;
+  animation-name: fish1;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  bottom: 200px;
+
+}
+
+@keyframes fish6 {
+  from {
+    margin-left: 850px;
+
+  }
+
+  to {
+    margin-left: -20px;
+
+  }
+
+}
+
+#fish5 {
+  position: absolute;
+  bottom: 10;
+  animation-duration: 6s;
+  animation-name: fish2;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  bottom: 250px;
+
+}
+
+@keyframes fish5 {
+  from {
+    margin-left: 20px;
+
+  }
+
+  to {
+    margin-left: 850px;
+
+  }
+}
+
+#fish7 {
+  position: absolute;
+  bottom: 10;
+  animation-duration: 10s;
+  animation-name: fish2;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  bottom: 230px;
+
+}
+
+@keyframes fish7 {
+  from {
+    margin-left: 20px;
+
+  }
+
+  to {
+    margin-left: 850px;
+
+  }
+}
+
+#fish8 {
+  position: absolute;
+  bottom: 10;
+  animation-duration: 6s;
+  animation-name: fish2;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  bottom: 30px;
+
+}
+
+@keyframes fish8 {
+  from {
+    margin-left: 20px;
+  }
+  to {
+    margin-left: 850px;
+  }
+}
+#fish9 {
+  position: absolute;
+  bottom: 10;
+  animation-duration: 8s;
+  animation-name: fish1;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  bottom: 90px;
+}
+
+@keyframes fish9 {
+  from {
+    margin-left: 850px;
+  }
+  to {
+    margin-left: -20px;
+
+  }
+}
+#fish10 {
+  position: absolute;
+  bottom: 10;
+  animation-duration: 15s;
+  animation-name: fish10;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  bottom: 210px;
+}
+
+@keyframes fish10 {
+  from {
+    margin-left: 850px;
+  }
+  to {
+    margin-left: -20px;
+  }
+}
+
+.information{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+
+}
+.info{
+  padding: 30px;
+  /* border: 1px solid black; */
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 2px 1px 7px rgb(66, 44, 4);
+  width: 997px;
+}
+.info img{
+  width: 250px;
+}
+.img{
+  padding: 50px;
+  border-radius: 100px;
+  box-shadow: 2px 2px 7px orange;
+}
+.text{
+  padding: 35px;
+}
